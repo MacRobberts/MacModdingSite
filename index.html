@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="content/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="content/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="content/favicon/favicon-16x16.png">
+    <link rel="manifest" href="content/favicon/site.webmanifest">
+
+    <meta property="og:site_name" content="Mac DayZ Modder" />
+    <meta property="og:title" content="Mac Robberts - DayZ Modding Courses and Commissions" />
+    <meta property="og:description" content="The information home of all my Courses and Commissions, a good place to see what i have to offer, from features to previous work! Any question hit me up on discord!" />
+    <meta property="og:url" content="https://macmodding.info/" />
+    <meta property="og:type" content="profile" />
+    <meta property="article:publisher" content="https://macmodding.info/" />
+    <meta property="article:section" content="Coding" />
+    <meta property="article:tag" content="Coding" />
+    <meta property="og:image" content="https://macmodding.info/content/og/ogBackground.jpg" />
+    <meta property="og:image:secure_url" content="https://macmodding.info/content/og/ogBackground.jpg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://macmodding.info/content/og/ogBackground.jpg" />
+    <meta property="twitter:site" content="@Project40DayZ" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mac DayZ Modder</title>
+    <meta name="description" content="Mac Robberts - DayZ Modding Courses and Commissions. The information home of all my Courses and Commissions, a good place to see what i have to offer, from features to previous work!">
+    <meta name="robots" content= "index, nofollow">
+
+    <meta name="keywords" content="DayZ, Modding, Retexting, Texturing, Support, Debugging">
+    <meta name="author" content="Mac Robberts">
+
+    <link rel="stylesheet" href="content/css/index.css">
+    <script src="https://kit.fontawesome.com/47a796bc09.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<script>
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            $('#BackToTopLink:hidden').stop(true, true).fadeIn(800);
+        } else {
+            $('#BackToTopLink').stop(true, true).fadeOut(800);
+        }
+        if ($(window).scrollTop() > 300) {
+            $('#banner').stop(true, true).fadeOut(800);
+        }
+    });
+</script>
+<body class="dark">
+    <div id="welcome" style="position: absolute; top: 0;"></div>
+
+    <div id="banner">Limited Time: 50% off listed prices!</div>
+
+    <div id="linkArea" >
+        <a id="BackToTopLink" class="linkBubble" style="display: none" href="index.html#welcome">
+            <i class="fa-solid fa-arrow-turn-up"></i>
+            <span>Back to top!</span>
+        </a>
+        <a class="linkBubble" onclick="toggleTheme()">
+            <i id="darkMode" class="fa-solid fa-moon"></i>
+            <i id="lightMode" class="fa-solid fa-sun"></i>
+            <span>Swap Theme!</span>
+        </a>
+        <a class="linkBubble" target="_blank" href="https://discord.com/channels/@me/892288642775650345">
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord me!</span>
+        </a>
+        <a class="linkBubble" target="_blank" href="https://steamcommunity.com/id/macrobberts/myworkshopfiles">
+            <i class="fa-brands fa-steam"></i>
+            <span>My Mods!</span>
+        </a>
+        <a class="linkBubble" target="_blank" href="https://github.com/MacRobberts?tab=repositories">
+            <i class="fa-brands fa-github"></i>
+            <span>My GitHub!</span>
+        </a>
+    </div>
+
+    <header>
+        <h1>Mac Robberts</h1>
+        <h2>DayZ Modding Courses, Consultancy and Commissions</h2>
+    </header>
+    <main>
+        <section id="intro">
+            <h3>Hey, I'm Mac!</h3>
+            An open source modder now looking to teach some newbies while working with awesome creators and server owners to produce epic experiences for our players.
+            I've worked with 3 servers so far, created many server mods and are now working on my own Roleplay community.
+            <br><br>
+            I'm a Website Quality Assurance Engineer by trade with an eye for detail and committed to producing high quality content.
+            <br><br>
+            After running my Fundamentals and Server Basics courses a few times now I'd love to take it a tad "commercial", so have a look around and see what I'm currently offering!
+        </section>
+        <section>
+            <h3 id="spacer" style="font-size: 2rem; visibility: hidden;">YouCute<3</h3>
+            <h4>Free Consultancy, Estimates <br class="mobile-break">and Issue Investigation</h4>
+            <ul>
+                <li class="time">About 30 Minutes</li>
+                <li class="check">Assistance setting up DayZ Tools and needed apps for courses.</li>
+                <li class="check">Mod advisory and basic compatibility testing.</li>
+                <li class="check">Complete free of charge, feel free to reach out!</li>
+                <br>
+                <li class="check">Delivery/Course times based on availability.</li>
+            </ul>
+            <h4>Interested or have any questions? <br class="mobile-break"><a target="_blank" class="inlineLink" href="https://discord.com/channels/@me/892288642775650345">Say Hey on discord!</a></h4>
+        </section>
+        <section>
+            <h3>== Courses ==</h3>
+            <h4>Fundamentals Course</h4>
+            <ul>
+                <li class="time">About 1-2 hours.</li>
+                <li class="cost">&#163;20 Pounds + &#163;10 Per Extra Person  <span style="font-size: 0.8rem">(Max 4 People)</span>.</li>
+                <li>Individual or small group guidance.</li>
+                <li>Covering Best practices, Setup of DayZ Tools, Setup of Offline Mod and getting needed applications installed. Basic Re-texturing, Resizing, Names etc..</li>
+                <li class="zip">Publishing your first mod.</li>
+                <li class="pdf">Includes a PDF Guide summarising everything we cover.</li>
+            </ul>
+            <h4>Server Basics Course</h4>
+            <ul>
+                <li class="time">About 2-3 hours.</li>
+                <li class="cost">&#163;20 Pounds + &#163;10 Per Extra Person  <span style="font-size: 0.8rem">(Max 2 People)</span>.</li>
+                <li>Server specific config and resizing.</li>
+                <li>Setup of a few basic Custom Features.</li>
+                <li>Covering Best practices, Repacking Basic, Modifying other mods.</li>
+                <li class="pdf">Includes a PDF Guide summarising everything we cover.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>== Commission ==</h3>
+            <h4>Server Mod Creation</h4>
+            <ul>
+                <li class="time">1 Week Delivery  <span style="font-size: 0.8rem">(More like 1-2 Days)</span>.</li>
+                <li class="cost">&#163;40 Pounds for any/all <a class="inlineLink" href="index.html#features">options listed below</a>.</li>
+                <li>Free Estimates on additional work outside those.</li>
+                <li class="git">Uploaded to GitHub, Publish Ready Package provided also.</li>
+            </ul>
+            <h4>Server Setup on your environment</h4>
+            <ul>
+                <li class="time">About 1-2 days deployment <span style="font-size: 0.8rem">(We agree when)</span>.</li>
+                <li class="cost">&#163;40 Pounds.</li>
+                <li>Omega/Game-panel Installation and Setup.</li>
+                <li>Basic Configuration of Loot Tables.</li>
+                <li>Setup Mods and their config.</li>
+                <li>Install custom maps, Admin tools, Custom builds.</li>
+            </ul>
+            <h4>Continual/Standby Developer</h4>
+            <ul>
+                <li class="time">Available week days after 7pm GMT/2pm EST - Weekends anytime.</li>
+                <li class="cost">Negotiable Costs paid monthly based on complexity. <br><span style="font-size: 0.8rem">(&#163;25ish Pound per month + One off for time-consuming fixes)</span></li>
+                <li class="check">Security, Updates, Emergency Fixes, Loot Table changes and most other things xD</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Reviews! <3</h4>
+        </section>
+        <section id="features">
+            <h4>Available Features</h4>
+            <ul>
+                <li>Auto Run (Repacks X Mod)</li>
+                <li>Ear Plugs (Repacks X Mod)</li>
+                <li>Additional Gestures (Works with Custom Animations)</li>
+                <li>Push to Mute Radio (Repacks X Mod)</li>
+                <li>Cookable Canned Food</li>
+                <li>Wring-Out Any Clothing</li>
+                <li>Disable Container-in-Container Stacking</li>
+                <li>Combinable Repair Kits</li>
+                <li>Items Repairable to Pristine</li>
+                <li>Roleplay Chat (Colored Action, OOC and Describing Text)</li>
+                <li>Always All Hot-bar Slots</li>
+                <li>Tasers, Rubber Rounds and Paintball Guns</li>
+                <li>Additional Storage Slots on Tents and Barrels</li>
+                <li>Additional Logging</li>
+            </ul>
+            <h4>Available Configuration</h4>
+            <ul>
+                <li>Configure Time for Actions</li>
+                <li>Configure/Disable Vehicle Damage</li>
+                <li>Increase Fire Lift-time</li>
+                <li>Gas-Masks only Toxic Zones</li>
+                <li>Disable Zombie Death in Toxic Zones</li>
+                <li>Increase Knockout Timeout</li>
+                <li>Resize any/all Vanilla Clothing and Items</li>
+                <li>Hats, Masks and Glasses interchangeable</li>
+                <li>Make Ammo Stack higher</li>
+                <li>Make Meds Stack higher</li>
+                <li>Bayonets into Sheaths</li>
+                <li>Obscured Shroom, Meat and Seed Names</li>
+                <li>Build Anywhere</li>
+                <li>Increased Stamina</li>
+                <li>Toxic Zone/Radiation Zones Setup</li>
+            </ul>
+            <h4>Quality of Life Features</h4>
+            <ul>
+                <li>Disable breath while wearing masks</li>
+                <li>Sanitize notes to ensure no cutoff on small screens</li>
+                <li>Disable CPR (Slap to wake up instead)</li>
+                <li>Disable Gas-Mask Muffle</li>
+                <li>Prevent death on reconnect while restrained or knocked out</li>
+                <li>Fix admin menu client crashes for basename broken glitched items</li>
+                <li>Disable barbed wire and camo net for less lag</li>
+                <li>Improve loading of storage for less lag</li>
+            </ul>
+        </section>
+    </main>
+</body>
+<script>
+    // Define which theme should load next
+    const themeMap = {
+        dark: 'light',
+        light: 'gray',
+        gray: 'red',
+        red: 'dark'
+    };
+    let theme = localStorage.getItem('theme');
+    let bodyClass = document.body.classList;
+
+    if(theme !== "undefined") {
+        bodyClass.replace(bodyClass.toString(), theme);
+        if (theme === "dark" || theme === "gray") {
+            document.getElementById("darkMode").style.display = "none";
+            document.getElementById("lightMode").style.display = "unset";
+        } else {
+            document.getElementById("darkMode").style.display = "unset";
+            document.getElementById("lightMode").style.display = "none";
+        }
+    }
+
+    // Change the theme on a button click
+    function toggleTheme() {
+        const current = document.body.classList;
+        const next = themeMap[current];
+
+        localStorage.setItem('theme', next);
+        current.replace(current.toString(), next);
+
+        if (next === "dark" || next === "gray") {
+            document.getElementById("darkMode").style.display = "none";
+            document.getElementById("lightMode").style.display = "unset";
+        } else {
+            document.getElementById("darkMode").style.display = "unset";
+            document.getElementById("lightMode").style.display = "none";
+        }
+    }
+</script>
+</html>
